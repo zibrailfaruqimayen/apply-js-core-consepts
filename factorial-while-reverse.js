@@ -1,5 +1,5 @@
 function factorial(number){
-    let i = 7;
+    let i = number;
     let result = 1;
     while(i >= 1){
         result = result * i;
@@ -7,3 +7,5 @@ function factorial(number){
     }
     return result;
 }
+const output = factorial(50);
+console.log(output);
